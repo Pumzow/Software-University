@@ -1,0 +1,23 @@
+body{
+    display: flex;
+}
+header{
+    flex-grow: initial;
+    flex-shrink: initial;
+    flex-basis: initial;
+}
+main{
+    flex-grow: initial;
+    flex-shrink: initial;
+    flex-basis: initial;
+}
+aside{
+    flex-grow: initial;
+    flex-shrink: initial;
+    flex-basis: initial;
+}
+footer{
+    flex-grow: initial;
+    flex-shrink: initial;
+    flex-basis: initial;
+}

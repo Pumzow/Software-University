@@ -1,0 +1,70 @@
+body {
+    font-family: Helvetica;
+    color: #273240;
+    margin: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .card{
+      display: flex;
+      justify-content: space-between;
+      margin: 50px 250px;
+      background-color: #f6f8f9;
+  }
+
+  .card-content{
+    margin: 100px 75px;
+  }
+
+  .card-content-collaborative-work-management{
+    font-size: 14px;
+  } 
+  
+  .card-content-title{
+    font-size: 34px;
+  }
+
+  .card-content-info{
+    line-height: 40px;
+    font-size: 24px;
+    color: #65707a;
+    width: 515px;
+  }
+
+  .card-img{
+    margin: 100px 75px 0px 0px;
+  }
+
+.card-content-btns{
+  
+  display: flex;
+  align-items: center;
+}
+
+  .card-content-btns button{
+    font-size: 22px;
+    margin-right: 30px;
+  }
+
+  .card-content-contact-sales{
+    color: white;
+    background-color: #786eff;
+    border-style: none;
+    border-radius: 5px;
+    width: 190px;
+    height: 60px;
+  } 
+  
+  .card-content-learn-more{
+    color: black;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 5px;
+    width: 190px;
+    height: 60px;
+  }

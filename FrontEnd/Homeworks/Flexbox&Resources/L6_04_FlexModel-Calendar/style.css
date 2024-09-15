@@ -1,0 +1,19 @@
+html{
+    box-sizing: border-box;
+}
+.container, section{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 65vw;
+}
+span{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.notes{
+    flex-direction: column;
+}

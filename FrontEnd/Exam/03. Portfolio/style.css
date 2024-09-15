@@ -1,0 +1,248 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Raleway:wght@200;400&display=swap');
+
+body {
+    font-family: 'Raleway';
+    margin: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  main{
+      display: flex;
+      flex-direction: column;
+      padding: 40px;
+  }
+  
+  main section{
+      background-color: #efefef;
+  }
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 100px 0px 100px;
+}
+
+.section-1-menu{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+}
+
+.section-1-menu p{
+    margin-right: 20px;
+}
+
+.section-1-content{
+    margin-top: 0px;
+    width: 600px;
+}
+
+.appollo{
+    color: black;
+    font-size: 60px;
+}
+
+.section-1-content-title, .section-2-content-title{
+    color: #909090;
+    font-size: 40px;
+}
+.section-1-content-text{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.section-1-content-line{
+    border-left: 1px black solid;
+    height: 60px;
+}
+
+.section-1-img img{
+    width: 900px;
+}
+
+.section-2-img img{
+    width: 700px;
+}
+
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 100px 200px;
+    display: flex;
+}
+
+.section-2-content{
+    margin: 0px 50px 0px 250px;
+}
+
+.section-2-content-title{
+    color: #909090;
+    display: flex;
+    padding-left: 30px;
+}
+
+.section-2-content-line{
+    position: relative;
+    top: 80px;
+    right: 30px;
+    border-top: 1px black solid;
+    width: 60px;
+}
+
+.section-2-content-text p{
+    
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.section-2-content-social{
+    display: flex;
+}
+.section-2-content-social .fab{
+    margin-right: 20px;
+    color: #909090;
+}
+
+.section-3{
+    margin-top: 40px;
+    height: 1000px;
+    background-image: url("/images/thumb-1.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.section-3-img img{
+    width: 100%;
+}
+
+
+.section-4{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 900px;
+    padding: 100px 150px;
+}
+.section-4-content{
+    margin-top: 0px;
+    width: 600px;
+}
+
+.section-4-content-title{
+    color: #909090;
+    font-size: 40px;
+}
+.section-4-content-text{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.section-4-content-line{
+    border-left: 1px black solid;
+    height: 60px;
+}
+
+.section-4-img img{
+    width: 900px;
+}
+
+
+.section-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.section-6-content
+{
+    margin: 80px;
+    font-size: 40px;
+}
+
+.section-6-title{
+    color: #909090;
+    font-size: 40px;
+}
+
+.section-6-text
+{
+    font-size: 25px;
+    line-height: 40px;
+    margin: 80px;
+    width: 1400px;
+}
+
+.section-6-form{
+    margin-top: -80px;
+    margin-bottom: 80px;
+    font-size: 25px;
+}
+.form-inputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input{
+    width: 46%;
+}
+
+.form-input[type="text"]{
+    font-size: 25px;
+}
+
+.form-textarea{
+    resize: none;
+    width: 640px;
+    font-size: 25px;
+}
+
+
+.form-btn{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    height: 50px;
+    width: 640px;
+}
+
+
+
+
+
+
+.section-5{
+    margin-top: 40px;
+    height: 1000px;
+}
+
+.section-5-imgs{
+    padding: 220px
+}
+
+#img1{
+    position: relative;
+    width: 700px;
+    left: 10%;
+    bottom: 75px;
+}
+#img2{
+    position: relative;
+    width: 900px;
+    z-index: 2;
+}
+#img3{
+    position: relative;
+    width: 700px;
+    right: 10%;bottom: 75px;
+}
